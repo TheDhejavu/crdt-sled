@@ -32,7 +32,7 @@ struct LWWMap<K, V> {
 
 impl<K, V> LWWMap<K, V>
 where
-    K: Serialize + for<'de> Deserialize<'de> + std::hash::Hash + Eq + Clone + std::fmt::Debug,
+    K: Serialize + for<'de> Deserialize<'de> + std::hash::Hash + Eq + Clone ,
     V: Serialize + for<'de> Deserialize<'de> + Clone + std::fmt::Debug,
 {
     fn new(db: Db) -> Self {
