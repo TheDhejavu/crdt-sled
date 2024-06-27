@@ -20,3 +20,4 @@ The Last-Write-Wins Map (LWWMap) is a type of CRDT that resolves conflicts based
 ## References
 - [A comprehensive study of Convergent and Commutative Replicated Data Types](https://inria.hal.science/file/index/docid/555588/filename/techreport.pdf)
 - [Rust CRDT](https://github.com/rust-crdt/rust-crdt)
+- [Intro to CRDTs](https://vlcn.io/blog/intro-to-crdts)
